@@ -4,7 +4,7 @@ Trabajos prácticos de la asignatura "Programación en Ambiente Web" de la Unive
 
 ## Introducción
 
-A lo largo de todos los trabajos prácticos se construirá la web de una institución de salud, que permite a los pacientes conocer las especialidades del lugar y solicitar turnos.
+A lo largo de todos los trabajos prácticos se construirá la web de una institución de salud denominada "PAW Centro de Salud", que permite a los pacientes conocer las especialidades del lugar y solicitar turnos.
 
 ## Esquema de versionado
 
@@ -30,4 +30,5 @@ Los trabajos prácticos se encuentran divididos en 5 enunciados que van incremen
 
 ## Consideraciones
 
+* La institución tiene una única sede.
 * En el formulario de solicitud de turno no se incluirá el campo para la edad (solicitado en el [TP 1](docs/enunciados/tp1.pdf)) dado que es un valor calculado a partir de la fecha de nacimiento y la fecha actual (obtenida del servidor web).
