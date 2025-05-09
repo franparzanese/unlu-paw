@@ -12,7 +12,7 @@ Los trabajos prácticos se encuentran divididos en 5 enunciados que van incremen
 
 | Enunciado                       | Versión  | Entregado |
 |:-------------------------------:|:--------:|:---------:|
-| [TP 1](docs/enunciados/tp1.pdf) | `v0.1.x` | -         |
+| [TP 1](docs/enunciados/tp1.pdf) | `v0.1.0` | ✅         |
 | [TP 2](docs/enunciados/tp2.pdf) | `v0.2.x` | -         |
 | [TP 3](docs/enunciados/tp3.pdf) | `v0.3.x` | -         |
 | [TP 4](docs/enunciados/tp4.pdf) | `v0.4.x` | -         |
