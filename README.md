@@ -4,7 +4,7 @@ Trabajos prácticos de la asignatura "Programación en Ambiente Web" de la Unive
 
 ## Introducción
 
-A lo largo de todos los trabajos prácticos se construirá la web de una institución de salud denominada "PAW Centro de Salud", que permite a los pacientes conocer las especialidades del lugar y solicitar turnos.
+A lo largo de todos los trabajos prácticos se construirá la web de una empresa denominada "UNLuPAW", una institución de salud que permite a los pacientes conocer las especialidades del lugar y solicitar turnos.
 
 ## Esquema de versionado
 
