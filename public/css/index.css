@@ -1,8 +1,12 @@
 #carrusel {
   align-items: center;
+  background-color: var(--secondary-rich-grey-color);
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin: -10px;
+  margin-top: 0;
+  padding: 40px 10px;
 }
 
 #carrusel img {
@@ -41,4 +45,44 @@
 #novedades a {
   color: #fff;
   text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+
+  #carrusel {
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    margin: -20px;
+    margin-top: 0;
+    padding: 40px 20px;
+  }
+
+  #novedades {
+    margin-bottom: -20px;
+    margin-top: 20px;
+  }
+
+  #novedades article {
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    margin: 0 -20px;
+    padding: 40px 20px;
+  }
+
+  #novedades article > a {
+    width: 40%;
+  }
+
+  #novedades div {
+    width: 40%;
+  }
+
+  #novedades h3 {
+    font-size: 22px;
+    margin-bottom: 40px;
+    margin-top: 0;
+  }
+
 }
