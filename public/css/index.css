@@ -1,0 +1,44 @@
+#carrusel {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#carrusel img {
+  width: 100%;
+}
+
+#novedades {
+  color: #fff;
+  margin-bottom: -10px;
+  margin-top: 10px;
+}
+
+#novedades article {
+  margin: 0 -10px;
+  padding: 40px 10px;
+}
+
+#novedades article:nth-child(odd) {
+  background-color: var(--primary-red-color);
+}
+
+#novedades article:nth-child(even) {
+  background-color: var(--primary-blue-color);
+}
+
+#novedades img {
+  width: 100%;
+}
+
+#novedades h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+#novedades a {
+  color: #fff;
+  text-decoration: none;
+}

@@ -30,5 +30,5 @@ Los trabajos prácticos se encuentran divididos en 5 enunciados que van incremen
 
 ## Consideraciones
 
-* La institución tiene una única sede.
 * En el formulario de solicitud de turno no se incluirá el campo para la edad (solicitado en el [TP 1](docs/enunciados/tp1.pdf)) dado que es un valor calculado a partir de la fecha de nacimiento y la fecha actual (obtenida del servidor web).
+* Se utilizó la fuente "Regencie" en lugar de "Gotham" (solicitada en el [TP 2](docs/enunciados/tp2.pdf)) dado que la misma ya no está disponible, y la nueva fuente es similar.
