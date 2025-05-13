@@ -1,0 +1,83 @@
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 20px;
+  text-align: center;
+}
+
+form label {
+  color: #000;
+  font-size: 16px;
+}
+
+form input {
+  box-sizing: border-box;
+  display: block;
+  padding: 5px;
+  width: 100%;
+}
+
+form button {
+  font-family: Regencie, Calibri;
+}
+
+div.tabla-responsiva {
+  overflow: scroll;
+}
+
+table {
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+thead {
+  background-color: var(--primary-yellow-color);
+  color: #000;
+  font-weight: bold;
+}
+
+th, td {
+  border-bottom: 1px solid var(--secondary-rich-olive-color);
+  padding: 10px;
+}
+
+tbody tr:hover {
+  background-color: var(--secondary-pale-grey-color);
+}
+
+@media screen and (min-width: 992px) {
+
+  form {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  form input {
+    width: 300px;
+  }
+
+  form.filtros {
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
+    margin: 20px 0;
+  }
+
+  form.filtros input {
+    width: 150px;
+  }
+
+  form.filtros div:last-child {
+    align-self: end;
+  }
+
+  div.acciones-formulario {
+    text-align: left;
+    width: 100%;
+  }
+
+}

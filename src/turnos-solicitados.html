@@ -51,66 +51,68 @@
     </header>
     <main>
       <h2>Turnos solicitados</h2>
-      <form action="#" method="GET">
-        <fieldset>
-          <legend>Filtrar por fecha:</legend>
-          <div>
-            <label for="date-from-field">Desde</label>
-            <input type="date" id="date-from-field" name="date-from">
-          </div>
-          <div>
-            <label for="date-to-field">Hasta</label>
-            <input type="date" id="date-to-field" name="date-to">
-          </div>
+      <form class="filtros" action="#" method="GET">
+        <p>Filtrar por fecha:</p>
+        <div>
+          <label for="date-from-field">Desde</label>
+          <input type="date" id="date-from-field" name="date-from">
+        </div>
+        <div>
+          <label for="date-to-field">Hasta</label>
+          <input type="date" id="date-to-field" name="date-to">
+        </div>
+        <div>
           <button type="submit">Aplicar</button>
-        </fieldset>
+        </div>
       </form>
-      <table>
-        <thead>
-          <tr>
-            <th>Nombre y apellido</th>
-            <th>Teléfono celular</th>
-            <th>Correo</th>
-            <th>Fecha de nacimiento</th>
-            <th>Fecha del turno</th>
-            <th>Hora del turno</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Martina Gómez</td>
-            <td>1167891234</td>
-            <td>martina.gomez@ejemplo.com</td>
-            <td>15/04/1992</td>
-            <td>17/05/2025</td>
-            <td>09:00</td>
-          </tr>
-          <tr>
-            <td>Lucas Fernández</td>
-            <td>1145678899</td>
-            <td>lucas.fernandez@ejemplo.com</td>
-            <td>30/09/1987</td>
-            <td>19/05/2025</td>
-            <td>10:30</td>
-          </tr>
-          <tr>
-            <td>Sofía Herrera</td>
-            <td>1133445566</td>
-            <td>sofia.herrera@ejemplo.com</td>
-            <td>22/01/1995</td>
-            <td>19/05/2025</td>
-            <td>14:15</td>
-          </tr>
-          <tr>
-            <td>Diego Ramírez</td>
-            <td>1177889900</td>
-            <td>diego.ramirez@ejemplo.com</td>
-            <td>08/06/1980</td>
-            <td>20/05/2025</td>
-            <td>16:45</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="tabla-responsiva">
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre y apellido</th>
+              <th>Teléfono celular</th>
+              <th>Correo</th>
+              <th>Fecha de nacimiento</th>
+              <th>Fecha del turno</th>
+              <th>Hora del turno</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Martina Gómez</td>
+              <td>1167891234</td>
+              <td>martina.gomez@ejemplo.com</td>
+              <td>15/04/1992</td>
+              <td>17/05/2025</td>
+              <td>09:00</td>
+            </tr>
+            <tr>
+              <td>Lucas Fernández</td>
+              <td>1145678899</td>
+              <td>lucas.fernandez@ejemplo.com</td>
+              <td>30/09/1987</td>
+              <td>19/05/2025</td>
+              <td>10:30</td>
+            </tr>
+            <tr>
+              <td>Sofía Herrera</td>
+              <td>1133445566</td>
+              <td>sofia.herrera@ejemplo.com</td>
+              <td>22/01/1995</td>
+              <td>19/05/2025</td>
+              <td>14:15</td>
+            </tr>
+            <tr>
+              <td>Diego Ramírez</td>
+              <td>1177889900</td>
+              <td>diego.ramirez@ejemplo.com</td>
+              <td>08/06/1980</td>
+              <td>20/05/2025</td>
+              <td>16:45</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </main>
     <footer>
       <img src="../public/img/logo.svg" alt="Logo">

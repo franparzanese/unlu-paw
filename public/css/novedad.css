@@ -1,0 +1,14 @@
+img.foto-novedad {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+
+  img.foto-novedad {
+    width: 40%;
+  }
+
+}

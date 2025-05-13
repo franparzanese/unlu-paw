@@ -1,0 +1,161 @@
+main section {
+  margin: 0 -10px;
+  padding: 40px 10px;
+}
+
+main section:nth-child(odd) {
+  background-color: var(--primary-main-color);
+  color: #fff;
+}
+
+main section:last-child {
+  margin-bottom: -10px;
+}
+
+main h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+main ul {
+  list-style: inherit;
+}
+
+main li {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+main li:last-child {
+  margin-bottom: 0;
+}
+
+main span {
+  font-weight: bold;
+}
+
+ul.novedades {
+  list-style: none;
+  margin-top: 20px;
+  text-align: center;
+}
+
+ul.novedades li {
+  margin: 0 -10px;
+  padding: 40px 10px;
+}
+
+ul.novedades li:nth-child(odd) {
+  background-color: var(--primary-red-color);
+}
+
+ul.novedades li:nth-child(even) {
+  background-color: var(--primary-blue-color);
+}
+
+ul.novedades a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul.novedades li:last-child {
+  margin-bottom: -10px;
+}
+
+ul.novedades img {
+  width: 100%;
+}
+
+ul.novedades h3 {
+  margin: 0;
+  margin-top: 10px;
+}
+
+ul.lista-contenido {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+form.busqueda {
+  margin: 10px 0;
+}
+
+form.busqueda label {
+  color: #000;
+  font-size: 16px;
+}
+
+form.busqueda input {
+  box-sizing: border-box;
+  display: block;
+  padding: 5px;
+  width: 100%;
+}
+
+form.busqueda button {
+  font-family: Regencie, Calibri;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 992px) {
+
+  main section {
+    margin: 0 -20px;
+    padding: 40px 20px;
+  }
+
+  main section:last-child {
+    margin-bottom: -20px;
+  }
+
+  main h3 {
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+
+  main li {
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+
+  ul.novedades li {
+    margin: 0 -20px;
+    padding: 40px 20px;
+  }
+
+  ul.novedades li:last-child {
+    margin-bottom: -20px;
+  }
+
+  ul.novedades img {
+    display: block;
+    margin: auto;
+    max-width: 500px;
+  }
+
+  ul.novedades h3 {
+    margin-top: 20px;
+  }
+
+  ul.lista-contenido {
+    margin-top: 40px;
+  }
+
+  form.busqueda {
+    margin: 20px 0;
+  }
+
+  form.busqueda div {
+    display: inline-block;
+  }
+
+  form.busqueda input {
+    width: 300px;
+  }
+
+  form.busqueda button {
+    margin: 0;
+  }
+
+}

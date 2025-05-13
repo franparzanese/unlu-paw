@@ -1,0 +1,24 @@
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+main img {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 80%;
+}
+
+@media screen and (min-width: 992px) {
+
+  h3 {
+    font-size: 20px;
+  }
+
+  main img {
+    width: 20%;
+  }
+
+}
