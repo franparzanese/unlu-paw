@@ -19,9 +19,12 @@
 
 body {
   color: var(--primary-main-color);
+  display: flex;
+  flex-direction: column;
   font-family: Regencie, Calibri;
   font-size: 18px;
   line-height: 24px;
+  min-height: 100vh;
 }
 
 header {
@@ -75,6 +78,7 @@ header nav > ul ul a:hover {
 }
 
 main {
+  flex: 1;
   padding: 10px;
 }
 
@@ -182,7 +186,7 @@ footer a {
 
   header {
     margin: auto;
-    max-width: 80%;
+    width: 80%;
   }
 
   #logo {
