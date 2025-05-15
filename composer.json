@@ -1,0 +1,17 @@
+{
+  "name": "franparzanese/unlu-paw",
+  "description": "Trabajos prácticos de la asignatura Programación en Ambiente Web de la Universidad Nacional de Luján",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "UnluPaw\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Franco L. Parzanese",
+      "email": "parzanesefranco@gmail.com"
+    }
+  ],
+  "require": {}
+}
