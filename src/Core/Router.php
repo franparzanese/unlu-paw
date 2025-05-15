@@ -2,8 +2,6 @@
 
 namespace UnluPaw\Core;
 
-use UnluPaw\Core\Request;
-
 /**
  * Ruteador.
  */
