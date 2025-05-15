@@ -32,4 +32,19 @@ class Request {
         return [$this->method(), $this->uri()];
     }
 
+    /**
+     * Retorna un parámetro enviado en la solicitud, ya sea POST o GET.
+     * @param string $param Nombre del parámetro.
+     * @return string|null El valor del parámetro si fue especificado, o null si no.
+     */
+    public function param(string $param) {
+        if (key_exists($param, $_POST)) {
+            return $_POST[$param];
+        }
+        if (key_exists($param, $_GET)) {
+            return $_GET[$param];
+        }
+        return null;
+    }
+
 }

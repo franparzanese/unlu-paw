@@ -52,7 +52,7 @@ class Router {
             $action = "notFound";
         }
         $controllerClass = "UnluPaw\\App\\Controllers\\" . $controller;
-        $controllerInstance = new $controllerClass();
+        $controllerInstance = new $controllerClass($request);
         $controllerInstance->$action();
     }
 
