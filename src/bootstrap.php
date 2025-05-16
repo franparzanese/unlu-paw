@@ -20,5 +20,7 @@ $router->addRoute("GET", "/especialidades", "EspecialidadController@especialidad
 $router->addRoute("GET", "/especialidad", "EspecialidadController@especialidad");
 $router->addRoute("GET", "/profesionales", "ProfesionalController@profesionales");
 $router->addRoute("GET", "/profesional", "ProfesionalController@profesional");
+$router->addRoute("GET", "/turnos", "TurnoController@turnos");
+$router->addRoute("GET", "/nuevoTurno", "TurnoController@nuevoTurno");
 
 $router->dispatch(new Request());
