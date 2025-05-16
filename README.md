@@ -22,6 +22,8 @@ Los trabajos prácticos se encuentran divididos en 5 enunciados que van incremen
 
 1. Copiar el fichero `.env.example` a `.env` y configurar las variables según sea necesario.
 2. Levantar los contenedores con el comando `docker compose up`.
+3. Instalar las dependencias con el comando `composer install`.
+4. Aplicar las migraciones de la base de datos con el comando `docker compose exec -it web vendor/bin/phinx migrate`.
 
 Esto iniciará un webserver y una base de datos.
 
