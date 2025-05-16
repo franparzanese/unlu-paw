@@ -12,16 +12,13 @@
       <section class="profesionales">
         <h3>Profesionales</h3>
         <ul class="lista-flex">
-          <li><a class="item-profesional" href="../profesionales/mamarchese.html"><div>
-            <img src="img/profesionales/mamarchese.svg" alt="Mario Alfredo Marchese">
-            <h4>Mario Alfredo Marchese</h4>
-            <h5>Dermatología</h5>
-          </div></a></li>
-          <li><a class="item-profesional" href="../profesionales/lmgagliardi.html"><div>
-            <img src="img/profesionales/lmgagliardi.svg" alt="Lena Marisa Gagliardi">
-            <h4>Lena Marisa Gagliardi</h4>
-            <h5>Dermatología</h5>
-          </div></a></li>
+          <?php foreach ($data["profesionales"] as $profesional): ?>
+            <li><a class="item-profesional" href="/profesional?id=<?= $profesional["id"] ?>"><div>
+              <img src="img/profesionales/<?= $profesional["pathImagen"] ?>" alt="<?= $profesional["nombre"] ?> <?= $profesional["apellido"] ?>">
+              <h4><?= $profesional["nombre"] ?> <?= $profesional["apellido"] ?></h4>
+              <h5><?= $data["nombre"] ?></h5>
+            </div></a></li>
+          <?php endforeach; ?>
         </ul>
       </section>
     </main>

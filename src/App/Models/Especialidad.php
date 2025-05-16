@@ -15,19 +15,88 @@ class Especialidad extends Model {
             "id" => 1,
             "nombre" => "Dermatología",
             "descripcion" => "El servicio de dermatología tiene como objetivo el cuidado de la piel, el pelo, las uñas y las mucosas, como la oral. Está conformado por dermatólogos infantiles (para pacientes recién nacidos y hasta los 15 años de edad) y dermatólogos de adultos (desde 16 años en adelante). Desempeña sus funciones en el ámbito ambulatorio y de internación.",
-            "profesionales" => []
+            "profesionales" => [
+                [
+                    "id" => 1,
+                    "matricula" => "1101",
+                    "nombre" => "Lena Marisa",
+                    "apellido" => "Gagliardi",
+                    "pathImagen" => "lmgagliardi.svg",
+                    "diasQueAtiende" => ["Lunes", "Miércoles", "Viernes"],
+                    "horarioInicio" => ["horas" => 13, "minutos" => 0],
+                    "horarioFinalizacion" => ["horas" => 16, "minutos" => 0],
+                    "duracionTurno" => 30
+                ],
+                [
+                    "id" => 5,
+                    "matricula" => "1105",
+                    "nombre" => "Mario Alfredo",
+                    "apellido" => "Marchese",
+                    "pathImagen" => "mamarchese.svg",
+                    "diasQueAtiende" => ["Martes", "Jueves", "Viernes"],
+                    "horarioInicio" => ["horas" => 10, "minutos" => 0],
+                    "horarioFinalizacion" => ["horas" => 13, "minutos" => 0],
+                    "duracionTurno" => 30
+                ]
+            ]
         ],
         2 => [
             "id" => 2,
             "nombre" => "Neurología",
             "descripcion" => "El servicio de neurología tiene como objetivo la prevención, el diagnóstico y el tratamiento del paciente adulto con enfermedades del sistema nervioso central y periférico -accidente cerebrovascular, cefaleas, epilepsias, demencias y trastornos neurodegenerativos, trastornos del movimiento, polineuropatías y miopatías-, tratando en lo posible evitar o minimizar las posibles secuelas y discapacidades que estas enfermedades ocasionan.",
-            "profesionales" => []
+            "profesionales" => [
+                [
+                    "id" => 2,
+                    "matricula" => "1202",
+                    "nombre" => "Norberto Fabián",
+                    "apellido" => "González",
+                    "pathImagen" => "nfgonzalez.svg",
+                    "diasQueAtiende" => ["Lunes", "Martes", "Jueves"],
+                    "horarioInicio" => ["horas" => 15, "minutos" => 0],
+                    "horarioFinalizacion" => ["horas" => 20, "minutos" => 0],
+                    "duracionTurno" => 20
+                ],
+                [
+                    "id" => 4,
+                    "matricula" => "1204",
+                    "nombre" => "Juan Cruz",
+                    "apellido" => "Lotrecchiano",
+                    "pathImagen" => "jclotrecchiano.svg",
+                    "diasQueAtiende" => ["Lunes", "Miércoles", "Jueves"],
+                    "horarioInicio" => ["horas" => 10, "minutos" => 0],
+                    "horarioFinalizacion" => ["horas" => 15, "minutos" => 0],
+                    "duracionTurno" => 20
+                ]
+            ]
         ],
         3 => [
             "id" => 3,
             "nombre" => "Urología",
             "descripcion" => "El servicio de urología depende del departamento de cirugía y se ocupa de la asistencia de pacientes con patologías benignas y oncológicas del aparato urinario. Realiza atención de pacientes en consultorios externos (consultas programadas y demanda espontánea), y atención de pacientes internados con enfermedades urológicas clínicas y quirúrgicas.",
-            "profesionales" => []
+            "profesionales" => [
+                [
+                    "id" => 3,
+                    "matricula" => "1303",
+                    "nombre" => "Patricio",
+                    "apellido" => "Holst",
+                    "pathImagen" => "pholst.svg",
+                    "diasQueAtiende" => ["Martes", "Miércoles", "Viernes"],
+                    "horarioInicio" => ["horas" => 10, "minutos" => 0],
+                    "horarioFinalizacion" => ["horas" => 14, "minutos" => 0],
+                    "duracionTurno" => 15
+                ],
+                [
+                    "id" => 6,
+                    "matricula" => "1306",
+                    "nombre" => "Gabriel",
+                    "apellido" => "Nolazco",
+                    "pathImagen" => "gnolazco.svg",
+                    "diasQueAtiende" => ["Lunes", "Miércoles", "Viernes"],
+                    "horarioInicio" => ["horas" => 14, "minutos" => 0],
+                    "horarioFinalizacion" => ["horas" => 18, "minutos" => 0],
+                    "duracionTurno" => 15
+                ]
+            ]
         ]
     ];
 
