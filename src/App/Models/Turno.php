@@ -56,4 +56,10 @@ class Turno extends Model {
         return [self::DATA[1], self::DATA[2], self::DATA[3], self::DATA[4]];
     }
 
+    public function save(array $data) {
+        $this->queryBuilder->insert("INSERT INTO turnos (nombreApellido, telefonoCelular, correo, fechaNacimiento, fechaTurno, horaTurno) "
+                . "VALUES ('" . $data["nombreApellido"] . "', '" . $data["telefonoCelular"] . "', '" . $data["correo"]
+                . "', '" . $data["fechaNacimiento"] . "', '" . $data["fechaTurno"] . "', '" . $data["horaTurno"] . "')");
+    }
+
 }

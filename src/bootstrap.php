@@ -2,8 +2,12 @@
 
 require __DIR__ . "/../vendor/autoload.php";
 
+use Dotenv\Dotenv;
 use UnluPaw\Core\Request;
 use UnluPaw\Core\Router;
+
+$dotenv = Dotenv::createUnsafeImmutable(__DIR__ . "/../");
+$dotenv->load();
 
 $router = new Router();
 

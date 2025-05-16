@@ -69,6 +69,14 @@ class TurnoController extends Controller {
 //            }
         }
         if (empty($errors)) {
+            $this->model->save([
+                "nombreApellido" => $name,
+                "telefonoCelular" => $phone,
+                "correo" => $email,
+                "fechaNacimiento" => $birthdate,
+                "fechaTurno" => $turnDate,
+                "horaTurno" => $turnTime
+            ]);
             $params = [
                 "formSuccess" => true,
                 "formMessage" => "El turno ha sido registrado."
