@@ -10,7 +10,7 @@
       <h2>Novedades</h2>
       <ul class="novedades">
         <li>
-          <a href="novedades/jornada-prevencion-cardiovascular.html">
+          <a href="/novedad?id=1">
             <article>
               <img src="img/novedades/jornada-prevencion-cardiovascular.png" alt="Jornada de prevención cardiovascular">
               <h3>Compartimos una nueva edición de la jornada de prevención cardiovascular</h3>
@@ -18,7 +18,7 @@
           </a>
         </li>
         <li>
-          <a href="novedades/unidos-por-inclusion.html">
+          <a href="/novedad?id=2">
             <article>
               <img src="img/novedades/unidos-por-inclusion.jpg" alt="Unidos por la inclusión">
               <h3>¡Unidos por la inclusión!</h3>
