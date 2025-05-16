@@ -8,13 +8,6 @@
     <?php require "Elements/header.php"; ?>
     <main>
       <h2>Profesionales</h2>
-      <form class="busqueda" action="#" method="GET">
-        <div>
-          <label for="search-field">Buscar profesional</label>
-          <input type="text" id="search-field" name="search">
-        </div>
-        <button type="submit">Aplicar</button>
-      </form>
       <ul class="lista-flex">
         <?php foreach ($data as $profesional): ?>
           <li><a class="item-profesional" href="/profesional?id=<?= $profesional["id"] ?>"><div>
