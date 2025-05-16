@@ -179,6 +179,19 @@ footer a {
   text-decoration: none;
 }
 
+#resultado-formulario {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.mensaje-exito {
+  color: green;
+}
+
+.mensaje-error {
+  color: red;
+}
+
 @media screen and (min-width: 992px) {
 
   body {

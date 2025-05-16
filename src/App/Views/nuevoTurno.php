@@ -8,7 +8,10 @@
     <?php require "Elements/header.php"; ?>
     <main>
       <h2>Solicitar turno</h2>
-      <form action="#" method="POST">
+      <p id="resultado-formulario" class="<?= ($formSuccess ?? true) ? "mensaje-exito" : "mensaje-error" ?>">
+        <?= $formMessage ?? "" ?>
+      </p>
+      <form action="" method="POST">
         <div>
           <label for="name-field">Nombre y apellido</label>
           <input type="text" id="name-field" name="name" required>

@@ -8,7 +8,10 @@
     <?php require "Elements/header.php"; ?>
     <main>
       <h2>Turnos solicitados</h2>
-      <form class="filtros" action="#" method="GET">
+      <p id="resultado-formulario" class="<?= ($formSuccess ?? true) ? "mensaje-exito" : "mensaje-error" ?>">
+        <?= $formMessage ?? "" ?>
+      </p>
+      <form class="filtros" action="" method="POST">
         <p>Filtrar por fecha:</p>
         <div>
           <label for="date-from-field">Desde</label>
