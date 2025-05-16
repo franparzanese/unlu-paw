@@ -26,8 +26,9 @@ class QueryBuilder {
 
     public function select(string $query) {
         $sentence = $this->pdo->prepare($query);
+        $sentence->setFetchMode(\PDO::FETCH_ASSOC);
         $sentence->execute();
-        return $sentence->fetchAll(\PDO::FETCH__ASSOC);
+        return $sentence->fetchAll();
     }
 
     public function insert(string $query) {
