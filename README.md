@@ -14,9 +14,13 @@ Los trabajos prácticos se encuentran divididos en 5 enunciados que van incremen
 |:-------------------------------:|:--------:|:---------:|
 | [TP 1](docs/enunciados/tp1.pdf) | `v0.1.0` | ✅         |
 | [TP 2](docs/enunciados/tp2.pdf) | `v0.2.0` | ✅         |
-| [TP 3](docs/enunciados/tp3.pdf) | `v0.3.x` | -         |
+| [TP 3](docs/enunciados/tp3.pdf) | `v0.3.0` | ✅         |
 | [TP 4](docs/enunciados/tp4.pdf) | `v0.4.x` | -         |
 | [TP 5](docs/enunciados/tp5.pdf) | `v1.0.x` | -         |
+
+## Ejecutar localmente
+
+Ejecutar sobre el raíz del proyecto el comando `php -S 0.0.0.0:8500 -t public/` (modificar el puerto si es necesario).
 
 ## Diseño
 
