@@ -3,3 +3,4 @@
 <title>UNLuPAW</title>
 <link href="css/reset.css" rel="stylesheet">
 <link href="css/unlupaw.css" rel="stylesheet">
+<script src="js/main.js"></script>

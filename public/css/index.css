@@ -1,18 +1,3 @@
-#carrusel {
-  align-items: center;
-  background-color: var(--secondary-rich-grey-color);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin: -10px;
-  margin-top: 0;
-  padding: 40px 10px;
-}
-
-#carrusel img {
-  width: 100%;
-}
-
 #novedades {
   color: #fff;
   margin-bottom: -10px;
@@ -48,15 +33,6 @@
 }
 
 @media screen and (min-width: 992px) {
-
-  #carrusel {
-    flex-direction: row;
-    gap: 20px;
-    justify-content: space-between;
-    margin: -20px;
-    margin-top: 0;
-    padding: 40px 20px;
-  }
 
   #novedades {
     margin-bottom: -20px;

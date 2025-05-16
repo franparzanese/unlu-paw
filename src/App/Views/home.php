@@ -7,11 +7,7 @@
   <body>
     <?php require "Elements/header.php"; ?>
     <main>
-      <div id="carrusel">
-        <img src="img/banner-1.jpg" alt="Banner">
-        <img src="img/banner-2.jpg" alt="Banner">
-        <img src="img/banner-3.jpg" alt="Banner">
-      </div>
+      <div class="carrusel"></div>
       <div id="novedades">
         <article>
           <a href="/novedad?id=1">
