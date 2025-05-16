@@ -11,7 +11,7 @@
       <p id="resultado-formulario" class="<?= ($formSuccess ?? true) ? "mensaje-exito" : "mensaje-error" ?>">
         <?= $formMessage ?? "" ?>
       </p>
-      <form action="" method="POST">
+      <form action="" method="POST" enctype="multipart/form-data">
         <div>
           <label for="name-field">Nombre y apellido</label>
           <input type="text" id="name-field" name="name" required>
@@ -35,6 +35,10 @@
         <div>
           <label for="turn-time-field">Hora del turno</label>
           <input type="time" id="turn-time-field" name="turn-time" required>
+        </div>
+        <div>
+          <label for="study-file-field">Estudio clínico</label>
+          <input type="file" id="study-file-field" name="study-file" accept="image/*">
         </div>
         <div class="acciones-formulario">
           <button type="submit">Solicitar</button>

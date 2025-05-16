@@ -51,6 +51,23 @@ class TurnoController extends Controller {
         if (!preg_match('/^\d{2}:\d{2}$/', $turnTime)) {
             $errors[] = "la hora del turno es inválida.";
         }
+        if (isset($_FILES["study-file"]) && $_FILES["study-file"]["error"] === UPLOAD_ERR_OK) {
+            $tmpName = $_FILES["study-file"]["tmp_name"];
+            $finfo = finfo_open(FILEINFO_MIME_TYPE);
+            $mime = finfo_file($finfo, $tmpName);
+            finfo_close($finfo);
+            if (strpos($mime, "image/") !== 0) {
+                $errors[] = "el estudio clínico adjunto debe ser un archivo de imagen.";
+            }
+            /**
+             * @TODO El siguiente bloque de código mueve el fichero subido a un
+             * directorio específico. Descomentar e implementar en la v1.0.0.
+             */
+//            $newFileName = uniqid("img_") . "." . strtolower(pathinfo($_FILES["study-file"]["name"], PATHINFO_EXTENSION));
+//            if (!move_uploaded_file($tmpName, __DIR__ . "/" . $newFileName)) {
+//                die("Error al mover la imagen.");
+//            }
+        }
         if (empty($errors)) {
             $params = [
                 "formSuccess" => true,
