@@ -30,7 +30,7 @@ class ProfesionalController extends Controller {
                 $data = $this->model->getById($id);
                 $this->render("profesional.php", ["data" => $data]);
             } catch (RecordNotFoundException $ex) {
-                $this->render("TODO_NOT_FOUND.php");
+                $this->render("notFound.php", ["message" => "El profesional que estás buscando no existe."]);
             }
         }
     }

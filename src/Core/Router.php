@@ -46,7 +46,7 @@ class Router {
             list($controller, $action) = explode("@", $this->routes[$method][$path]);
         } else {
             // La ruta solicitada no existe.
-            $controller = "ErrorController";
+            $controller = "GeneralController";
             $action = "notFound";
         }
         $controllerClass = "UnluPaw\\App\\Controllers\\" . $controller;

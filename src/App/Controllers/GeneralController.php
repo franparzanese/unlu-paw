@@ -9,6 +9,10 @@ use UnluPaw\Core\Controller;
  */
 class GeneralController extends Controller {
 
+    public function notFound() {
+        $this->render("notFound.php");
+    }
+
     public function home() {
         $this->render("home.php");
     }
@@ -47,7 +51,7 @@ class GeneralController extends Controller {
         } elseif ($id === 2) {
             $this->render("unidos-por-inclusion.php");
         } else {
-            $this->render("TODO_NOT_FOUND.php");
+            $this->render("notFound.php", ["message" => "No existe una novedad con el ID especificado."]);
         }
     }
 
