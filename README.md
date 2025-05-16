@@ -20,7 +20,10 @@ Los trabajos prácticos se encuentran divididos en 5 enunciados que van incremen
 
 ## Ejecutar localmente
 
-Ejecutar sobre el raíz del proyecto el comando `php -S 0.0.0.0:8500 -t public/` (modificar el puerto si es necesario).
+1. Copiar el fichero `.env.example` a `.env` y configurar las variables según sea necesario.
+2. Levantar los contenedores con el comando `docker compose up`.
+
+Esto iniciará un webserver y una base de datos.
 
 ## Diseño
 
